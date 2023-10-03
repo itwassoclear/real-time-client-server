@@ -1,8 +1,13 @@
 import React from 'react';
 import './app.css';
+import LongPulling from './LongPulling';
 
 function App() {
-  return <div></div>;
+  return (
+    <div>
+      <LongPulling />
+    </div>
+  );
 }
 
 export default App;
